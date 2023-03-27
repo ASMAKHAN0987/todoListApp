@@ -77,6 +77,7 @@ function createList(element) {
   liTag.appendChild(divForI);
   ul.appendChild(liTag);
 }
+// for removing and adding complete class to the divs
 function remove(e) {
   console.log("hello");
   let lotsOfList2 = JSON.parse(localStorage.getItem("lotsOfList"));
